@@ -1,0 +1,12 @@
+{
+  "name": "apirestexpressmongo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/marpercor8/APIRestExpressMongo.git",
+  "author": "Mario Perez <marpercor8@alum.us.es>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  }
+}
