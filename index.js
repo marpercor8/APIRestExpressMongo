@@ -8,15 +8,14 @@ require('./src/config/database.js')();
 
 const express = require('express')
 const app = express()
-const bodyParser = require('body-parser')
 
 // Constants
 
 const port = 3000
 
 // Body parser middleware
-
-app.use(bodyParser.json()) // for parsing application/json
+const bodyParser = require('body-parser')
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // Logger middleware
